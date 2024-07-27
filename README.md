@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ReactJS
 KPM Power - Part Two
 =======
