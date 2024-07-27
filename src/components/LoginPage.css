@@ -1,0 +1,158 @@
+.login-container {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* For buttons of the form */
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button.facebook {
+    background-color: #3b5998; 
+    color: white;
+    height: 40px; 
+  }
+  
+  
+  button.google {
+    background-color: white; 
+    height: 40px; 
+    border: 1px solid gray; 
+  }
+
+  button svg {
+    margin-right: 5px; /* Add space between the icon and text */
+  }
+
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    width: 80%; 
+  }
+  
+  .facebook-logo, .google-logo {
+    height: 20px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  
+  .social-buttons button {
+    flex: 1;
+    margin: 0 5px; 
+    padding: 15px; 
+    font-size: 14px; 
+  }
+
+  /* Input Boxes */
+  .input-group {
+    width: 75%; 
+    margin-right: 30px; ;
+  }
+  
+  input {
+    display: block;
+    width: 100%; 
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  .password-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-group label {
+    margin: 0;
+    flex: none;
+  }
+  
+  .forgot-link {
+    font-size: 10px; 
+    color: lightgray; 
+    text-decoration: underline;
+    margin-left: 10px; 
+  }
+  
+  /* Submit Button */
+  button.sign-in {
+    width: 80%; 
+    background-color: black; 
+    color: white;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 8px; 
+  }
+
+  label {
+    display: block;
+    margin: 10px 5px 5px;
+    font-size: 10px;
+    text-align: left;
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    font-size: small;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  /* Sign Up Part */
+  
+  .links {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+  }
+
+  .signup-text {
+    font-size: 10px;
+    color: #999; 
+    text-align: center; 
+    margin-top: 10px; 
+  }
+  
+  .signup-text a {
+    color: #999; 
+    text-decoration: underline;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: none; 
+  }
+  
+ 

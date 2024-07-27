@@ -1,0 +1,41 @@
+body {
+    background-color: black; 
+    
+  }
+  .welcome-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: lightgreen; 
+  }
+  
+  /* Style for Table */
+  
+  table {
+    width: 80%;
+    border-collapse: separate;
+    background-color: black; 
+    color: lightgreen; 
+    margin-top: 20px; 
+    margin: 20px auto; 
+    border: 2px solid green;
+  }
+  
+  th, td {
+    border: 1px solid green;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: black; 
+    color: lightgreen; 
+    text-align: center; 
+    font-weight: bold; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #1a1a1a; 
+  }
+  
