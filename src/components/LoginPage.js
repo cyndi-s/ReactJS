@@ -26,15 +26,15 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="login-container" style={{ backgroundImage: `url('/bg-01.jpg')` }}>
+    <div className="login-container" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/other-images/bg-01.jpg)` }}>
       <form onSubmit={handleSubmit} noValidate>
         <h2>Sign In With</h2>
         <div className="social-buttons">
             <button type="button" className="facebook" onClick={() => window.location.href = 'https://facebook.com'}>
-                <img src="/fb.jpg" alt="Facebook logo" className="facebook-logo" /> Facebook
+                <img src={`${process.env.PUBLIC_URL}/other-images/fb.jpg`} alt="Facebook logo" className="facebook-logo" /> Facebook
             </button>
             <button type="button" className="google" onClick={() => window.location.href = 'https://gmail.com'}>
-                <img src="/googleLogo.jpg" alt="Google logo" className="google-logo" /> Google
+                <img src={`${process.env.PUBLIC_URL}/other-images/googleLogo.jpg`} alt="Google logo" className="google-logo" /> Google
             </button>
         </div>
         {error && <p className="error">{error}</p>}
