@@ -1,5 +1,5 @@
 # ReactJS
-KPM Power - Part Two
+- Part Two
 
 [Visit the ReactJS project](https://cyndi-s.github.io/ReactJS/)
 
